@@ -1,0 +1,164 @@
+{
+  "basics": {
+    "name": "Eduardo Sepúlveda",
+    "label": "Frontend developer con un año de experiencia",
+    "image": "",
+    "email": "ed.sepulveda12@gmail.com",
+    "phone": "(912) 555-4321",
+    "url": "https://maps.app.goo.gl/kHZPh5qqPya9SLoBA",
+    "summary": "Un año creando experiencias para diferentes clientes, utilizando las mejores practicas y herramientas, asegurando que el entorno de desarrollo sea robusto ante cualquier eventualidad. Actualmento vivo en Chile",
+    "location": {
+      "address": "LAS HORTENSIAS",
+      "postalCode": "CA 94115",
+      "city": "Valparaiso",
+      "countryCode": "VAL",
+      "region": "Valparaiso"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "esepulveda",
+        "url": "https://github.com/edsepulveda"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Eduardo Sepúlveda Narváez",
+        "url": "https://www.linkedin.com/in/ed-sepulveda-narvaez/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Orbis Data SPA",
+      "position": "Consultor TI",
+      "url": "https://www.orbisdata.cl",
+      "startDate": "04-04-2023",
+      "endDate": null,
+      "summary": "Cree varios proyectos tanto internos como externos, trabajé a la par de desarrolladores experimentados utilizando las siguientes tecnologias: NextJS, NestJS, TailwindCSS, TypeScript",
+      "badgeVariant": "orbis",
+      "highlights": ["Remote"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Javascript",
+      "variant": "javascript"
+    },
+    {
+      "name": "React",
+      "variant": "react"
+    },
+    {
+      "name": "TypeScript",
+      "variant": "typescript"
+    },
+    {
+      "name": "TailwindCSS",
+      "variant": "tailwind"
+    },
+    {
+      "name": "PostgreSQL",
+      "variant": "postgre"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingles",
+      "fluency": "Intermedio"
+    }
+  ],
+  "projects": [
+    {
+      "name": "MiDT",
+      "startDate": "2019-01-01",
+      "client": "Interno",
+      "clientURL": "https://www.orbisdata.cl/",
+      "endDate": "2021-01-01",
+      "description": "Plataforma que permite subir archivos excel con información sobre trabajadores",
+      "tags": ["Frontend developer", "Nextjs", "TailwindCSS"],
+      "link": ""
+    },
+    {
+      "name": "Aplicaciones Visa",
+      "startDate": "2019-01-01",
+      "client": "Redbanc",
+      "clientURL": "https://www.redbanc.cl/",
+      "endDate": "2021-01-01",
+      "description": "Aplicación que permite la gestión y manejo de grandes cantidades de datos (tarjetas, transacciones)",
+      "tags": ["Frontend developer", "Nextjs", "TailwindCSS"],
+      "link": ""
+    },
+    {
+      "name": "Portal LME",
+      "startDate": "2019-01-01",
+      "client": "Interno",
+      "clientURL": "https://www.orbisdata.cl/",
+      "endDate": "2021-01-01",
+      "description": "Portal que permite subir licencias medicas y exportarlas en formato EXCEL",
+      "tags": ["Frontend developer", "Nextjs", "TailwindCSS"],
+      "link": ""
+    },
+    {
+      "name": "Userhub",
+      "startDate": "2019-01-01",
+      "client": "Interno",
+      "clientURL": "https://www.orbisdata.cl/",
+      "endDate": "2021-01-01",
+      "description": "Software centralizado que permite la creación de usuarios, roles, permisos, empresas",
+      "tags": ["Frontend developer", "Nextjs", "TailwindCSS"],
+      "link": ""
+    }
+  ]
+}

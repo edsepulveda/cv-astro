@@ -1,0 +1,65 @@
+---
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "./ui/badge";
+
+interface Props {
+  title: string;
+  description: string;
+  tags: readonly string[];
+  client: string;
+  clientURL: string;
+  link?: string;
+}
+
+const { title, description, tags, link, client, clientURL } = Astro.props;
+---
+
+<Card
+  className="flex flex-col overflow-hidden border border-muted p-1 bg-gradient-to-br from-white to-gray-200 dark:from-[#18181b] dark:to-slate-900"
+>
+  <CardHeader>
+    <div class="space-y-1">
+      <CardTitle className="text-base">
+        {
+          link ? (
+            <a
+              href={link}
+              target="_blank"
+              class="inline-flex items-center gap-1 hover:underline"
+            >
+              {title}
+            </a>
+          ) : (
+            <span>{title}</span>
+          )
+        }
+      </CardTitle>
+      <div class="hidden font-mono text-xs underline print:visible">
+        {link?.replace("https://", "").replace("www", "").replace("/", "")}
+      </div>
+      <a
+        href={clientURL}
+        class="text-xs font-mono hover:underline"
+        target="_blank">Cliente: {client}</a
+      >
+      <CardDescription className="font-mono text-xs">
+        {description}
+      </CardDescription>
+    </div>
+  </CardHeader>
+  <CardContent className="mt-auto flex me-auto">
+    <div class="mt-2 flex flex-wrap gap-1">
+      {
+        tags.map((tag) => (
+          <Badge className="px-1 py-0 text-[10px]">{tag}</Badge>
+        ))
+      }
+    </div>
+  </CardContent>
+</Card>
